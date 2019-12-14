@@ -12,9 +12,9 @@
 	<p>
 	<a href="listar.php">Listar usuários cadastrados</a>
 	<p>
-	<a href="procurar.php">Procurar usuário</a>
+	<a href="procurarusuario.php">Procurar usuário</a>
 	<p>
-	<a href="remover.php">Remover usuário</a>
+	<a href="removerusuario.php">Remover usuário</a>
 	
 </body>
 </html>
