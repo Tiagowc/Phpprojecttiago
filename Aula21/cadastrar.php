@@ -1,10 +1,11 @@
-<?php
+        <?php
 $method = $_SERVER["REQUEST_METHOD"];
 if ($method == "POST") {
 	$email = $_POST["email"];
 	$senha = $_POST["senha"];
 	$link = @mysqli_connect("localhost", "root", "");
 	$linkErro = mysqli_connect_errno();
+        
 	if ($linkErro == 0) {
 		$resultado = mysqli_query($link, "SELECT * FROM cadastro_usuarios.usuario WHERE email = '$email'");
 		if ($resultado) {
@@ -30,7 +31,7 @@ if ($method == "POST") {
 <meta charset="ISO-8859-1">
 <title>Cadastro | App Cadastro de Usuários</title>
 </head>
-<body>
+<body>  
 	<a href="usuarios.php">Voltar</a>
 
 	<h1>Cadastre um usuário</h1>

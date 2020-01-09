@@ -23,5 +23,6 @@ $lista[] = $usuario;
  echo "<h1> . print_r($lista) . </h1>;
 
         
- 
-?>
+ ?>
+
+
